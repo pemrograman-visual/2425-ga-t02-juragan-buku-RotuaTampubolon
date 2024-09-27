@@ -31,7 +31,7 @@ public class T02 {
                 if (rating >= 4.0 && rating < 4.5) {
                     keterangan = "Recommended";
                 } else {
-                    if (rating > 3.0 && rating < 4.0) {
+                    if (rating >= 3.0) {
                         keterangan = "Average";
                     } else {
                         keterangan = "Low";
