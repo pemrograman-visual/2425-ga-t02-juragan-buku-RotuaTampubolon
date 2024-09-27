@@ -23,18 +23,18 @@ public class T02 {
         stok = Integer.parseInt(input.nextLine());
         rating = Double.parseDouble(input.nextLine());
         if (rating >= 4.7 && rating <= 5.0) {
-            keterangan = "bestPick";
+            keterangan = "Best Pick";
         } else {
             if (rating >= 4.5 && rating < 4.7) {
-                keterangan = "mustRead";
+                keterangan = "Must Read";
             } else {
                 if (rating >= 4.0 && rating < 4.5) {
-                    keterangan = "recommended";
+                    keterangan = "Recommended";
                 } else {
                     if (rating > 3.0 && rating < 4.0) {
-                        keterangan = "average";
+                        keterangan = "Average";
                     } else {
-                        keterangan = "low";
+                        keterangan = "Low";
                     }
                 }
             }
