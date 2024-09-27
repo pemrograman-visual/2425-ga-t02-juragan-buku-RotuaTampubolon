@@ -39,6 +39,10 @@ public class T02 {
                 }
             }
         }
-        System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tahun + "|" + penerbit + "|" + formatbuku + "|" + harga + "|" + margin + "|" + stok + "|" + rating + "|" + keterangan);
+        System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tahun + "|" + penerbit + "|" + formatbuku + "|" + toFixed(harga,2) + "|" + toFixed(margin,2) + "|" + stok + "|" + rating + "|" + keterangan);
+    }
+    
+    private static String toFixed(double value, int digits) {
+        return String.format("%." + digits + "f", value);
     }
 }

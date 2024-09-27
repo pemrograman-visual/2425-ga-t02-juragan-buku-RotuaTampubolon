@@ -4,9 +4,9 @@
         <attribute name="name" value="T02"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-27 10:58:24 AM"/>
+        <attribute name="saved" value="2024-09-27 11:14:54 AM"/>
         <attribute name="created" value="VXNlcjtMQVBUT1AtSkoySDVLTjk7MjAyNC0wOS0yNzswOTo1NDowMSBBTTsyNzMx"/>
-        <attribute name="edited" value="VXNlcjtMQVBUT1AtSkoySDVLTjk7MjAyNC0wOS0yNzsxMDo1ODoyMyBBTTsxOzI4Mzk="/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtSkoySDVLTjk7MjAyNC0wOS0yNzsxMToxNDo1NCBBTTsyOzI4Mzc="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -53,7 +53,7 @@
                     </if>
                 </else>
             </if>
-            <output expression="ISBN&amp;&quot;|&quot;&amp;judul&amp;&quot;|&quot;&amp;penulis&amp;&quot;|&quot;&amp;tahun&amp;&quot;|&quot;&amp;penerbit&amp;&quot;|&quot;&amp;formatbuku&amp;&quot;|&quot;&amp;harga&amp;&quot;|&quot;&amp;margin&amp;&quot;|&quot;&amp;stok&amp;&quot;|&quot;&amp;rating&amp;&quot;|&quot;&amp;keterangan" newline="True"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;judul&amp;&quot;|&quot;&amp;penulis&amp;&quot;|&quot;&amp;tahun&amp;&quot;|&quot;&amp;penerbit&amp;&quot;|&quot;&amp;formatbuku&amp;&quot;|&quot;&amp;tofixed(harga,2)&amp;&quot;|&quot;&amp;tofixed(margin,2)&amp;&quot;|&quot;&amp;stok&amp;&quot;|&quot;&amp;rating&amp;&quot;|&quot;&amp;keterangan" newline="True"/>
         </body>
     </function>
 </flowgorithm>
